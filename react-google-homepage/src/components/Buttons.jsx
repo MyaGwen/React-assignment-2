@@ -2,9 +2,9 @@ import React from 'react';
 
 export const Buttons = () => {
   return (
-    <div>
-      <button>Google Search</button>
-      <button>I'm Feeling Lucky</button>
+    <div className='btns'>
+      <button className='btn'>Google Search</button>
+      <button className='btn'>I'm Feeling Lucky</button>
     </div>
   );
 }

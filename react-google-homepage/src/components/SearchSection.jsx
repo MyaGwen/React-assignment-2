@@ -7,6 +7,7 @@ import Language from './Language';
 export const SearchSection = () => {
   return (
     <div className="SearchSection">
+      
       <div className="search-container">
         <InputIcons />
       </div>

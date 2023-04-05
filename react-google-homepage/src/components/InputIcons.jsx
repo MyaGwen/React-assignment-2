@@ -7,6 +7,7 @@ export const InputIcons = (props) => {
   return (
    <div className='inputicons'>
       <img src={Icon} alt='search icon'/>
+      <input />
       <img src={Mic} alt='google mic'/>
       <img className='lens' src={Lens} alt='google lens'/>
    </div>

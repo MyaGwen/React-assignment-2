@@ -68,19 +68,39 @@ ul {
 
 .search-container {
   width: 41%;
-  padding: 7px 0;
+  padding: 12px 0;
   margin: 20px auto;
   border-radius: 50px;
   background: transparent;
-  border: 1px solid #bdc1c6;
+  border: 1px solid #5f6368;
   box-shadow: none;
   max-width: 582px;
-  height: 30px;
+ display: flex;
+ justify-content: space-between;
 }
 
 .search-container:hover {
-  background: #bdc1c6;
+  background: #5f6368;
 
+}
+
+.input-wrapper{
+  height: 35px;
+  width: 83%;
+}
+
+.previousList li{
+  list-style-type: none;
+}
+
+.input-field{
+  height: inherit;
+  width: 72%;
+  border: none;
+}
+
+.input-field:focus{
+  outline: none;
 }
 
 .inputicons {
@@ -97,6 +117,26 @@ ul {
 
 .lens {
   padding-left: 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 10%;
+  background-color: #303134;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.btn:hover {
+  border: 1px solid #5f6368;
 }
 
 .Language {
