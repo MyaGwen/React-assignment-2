@@ -3,7 +3,7 @@ import Icon from '../Images/menubutton.svg'
 
 export const MenuIcon = (props) => {
   return (
-    <img className='Menu'  src={Icon} alt={props.text}/>
+    <img className='MenuIcon'  src={Icon} alt='menu icon'/>
   )
 }
 

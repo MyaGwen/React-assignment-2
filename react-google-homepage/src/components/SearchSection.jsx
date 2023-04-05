@@ -1,6 +1,6 @@
 import React from 'react';
 import AppIcon from './AppIcon';
-import GoogleIcons from './GoogleIcons';
+import InputIcons from './InputIcons';
 import Button from './Buttons';
 import Language from './Language';
 
@@ -9,7 +9,7 @@ export const SearchSection = () => {
     <div className="SearchSection">
       <AppIcon />
       <div className="search-container">
-        <GoogleIcons />
+        <InputIcons />
       </div>
       <div className="Btns">
         <Button text="Google Search" />

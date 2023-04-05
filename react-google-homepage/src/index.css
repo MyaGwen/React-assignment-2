@@ -14,6 +14,7 @@ code {
 
 a{
   text-decoration: none;
+  color: inherit;
 }
 
 ul{
@@ -28,13 +29,19 @@ ul{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  gap: 20px;
   padding: 14px;
+  color: #fff;
+}
+
+.Navbar ul{
+  margin: 0;
+  padding: 0;
 }
 
 .MenuIcon{
   width: 24px;
   height: 24px;
-  /* margin-left: 15px; */
 }
 
 
@@ -51,7 +58,6 @@ ul{
   font-size: 17px;
   font-weight: 500;
   align-items: center;
-  margin: 0px 0px 0px 20px;
 }
 
 .search-container{
@@ -66,13 +72,13 @@ ul{
   height: 30px;
 }
 
-.googleIcons{
+.inputicons{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.googleIcons img{
+.inputicons img{
   height: 20px;
   padding-right: 16px;
   padding-left: 16px;
