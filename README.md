@@ -8,5 +8,5 @@
 ### Search Bar 
 ### Search icons 
 ### Buttons
-### Language 
+### Languages 
 ### Footer 
