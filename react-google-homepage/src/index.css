@@ -127,12 +127,12 @@ ul {
 }
 
 .btn {
-  padding: 8px 12px;
+  padding: 8px 10px;
   font-size: 14px;
-  width: 10%;
   background-color: #303134;
   border-radius: 4px;
   color: #fff;
+white-space: nowrap;
 }
 
 .btn:hover {
@@ -164,6 +164,9 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  background: #171717;
+  color: #9aa0a6;
+
 }
 
 footer ul {
@@ -175,8 +178,7 @@ footer ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #9aa0a6;
-  padding: 10px 27px;
+  padding: 15px 30px;
 }
 
 .left-col ul,
@@ -187,8 +189,8 @@ footer ul {
 }
 
 .location {
-  padding-left: 27px;
+  padding: 15px 30px;
   border-bottom: 1px solid #3c4043;
   font-size: 15px;
-  color: #70757a;
+  text-align: left;
 }
