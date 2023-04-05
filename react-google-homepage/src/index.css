@@ -12,23 +12,24 @@ code {
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
 .App {
   background-color: #202124;
   height: 100vh;
+  position: relative;
 }
 
 /* Nav section */
 
-.Navbar{
+.Navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -38,18 +39,18 @@ ul{
   font-size: 14px;
 }
 
-.Navbar ul{
+.Navbar ul {
   margin: 0;
   padding: 0;
 }
 
-.MenuIcon{
+.MenuIcon {
   width: 24px;
   height: 24px;
 }
 
 
-.Avatar{
+.Avatar {
   display: flex;
   justify-content: center;
   border-radius: 50%;
@@ -65,7 +66,7 @@ ul{
 
 /* search section */
 
-.search-container{
+.search-container {
   width: 41%;
   padding: 7px 0;
   margin: 20px auto;
@@ -77,40 +78,41 @@ ul{
   height: 30px;
 }
 
-.search-container:hover{
+.search-container:hover {
   background: #bdc1c6;
 
 }
 
-.inputicons{
+.inputicons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.inputicons img{
+.inputicons img {
   height: 20px;
   padding-right: 16px;
   padding-left: 16px;
 }
 
-.lens{
+.lens {
   padding-left: 0;
 }
 
-.Language{
+.Language {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Language p{
+.Language p {
   font-size: 13px;
   margin-right: 10px;
-  color: #4d5156;;
+  color: #4d5156;
+  ;
 }
 
-.Language a{
+.Language a {
   color: #8ab4f8;
   text-decoration: none;
   padding: 0px 3px;
@@ -118,45 +120,35 @@ ul{
   font-weight: 500;
 }
 
-footer{
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-  color: #9aa0a6;
-  /* margin-left: -13px;
-  padding: 0px 15px 0px 15px; */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-.left-col ul{
-  font-size: 14px;
-  padding-left: 27px;
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-cols {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9aa0a6;
+  padding: 10px 27px;
 }
 
-.footer-container{
-  margin-top: 195px;
-}
-
-.location{
-  padding-left: 27px;
-    border-bottom: 1px solid #3c4043;
-    font-size: 15px;
-    color: #70757a;
-}
-
-.footer-link a, .footer-container{
-  color: #70757a;
-  background: #f2f2f2;
-}
-
-.col-1 a, .col-3 a{
-  padding: 5px;
-}
-
-.col-1 a, .col-2 a, .col-3 a{
+.left-col ul,
+.right-col ul {
   font-size: 14px;
+  display: flex;
+  gap: 20px;
 }
 
-.col-1, .col-2, .col-3{
-  padding: 15px;
+.location {
+  padding-left: 27px;
+  border-bottom: 1px solid #3c4043;
+  font-size: 15px;
+  color: #70757a;
 }

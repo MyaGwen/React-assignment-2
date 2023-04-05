@@ -14,9 +14,11 @@ export const Footer = () => {
           </ul>
         </div>
         <div className='right-col'>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
         </div>
       </div>
     </footer >
