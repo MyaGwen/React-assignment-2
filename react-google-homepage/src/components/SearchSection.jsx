@@ -10,13 +10,7 @@ export const SearchSection = () => {
       <div className="search-container">
         <InputIcons />
       </div>
-      <div className="Btns">
-        <Button text="Google Search" />
-        <Button text="I'm Feeling Lucky" />
-      </div>
-      <div className="Language">
-        <Language />
-      </div>
+     
     </div>
   );
 };
