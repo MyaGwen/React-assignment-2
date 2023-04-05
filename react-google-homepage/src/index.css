@@ -66,6 +66,10 @@ ul {
 
 /* search section */
 
+.appicon {
+  height: 92px;
+}
+
 .search-container {
   width: 41%;
   padding: 12px 0;
@@ -81,9 +85,8 @@ ul {
 
 .search-container:hover {
   background: #5f6368;
-
 }
-
+/* 
 .input-wrapper{
   height: 35px;
   width: 83%;
@@ -95,13 +98,13 @@ ul {
 
 .input-field{
   height: inherit;
-  width: 72%;
+  width: 100%;
   border: none;
 }
 
 .input-field:focus{
   outline: none;
-}
+} */
 
 .inputicons {
   display: flex;
@@ -186,6 +189,11 @@ footer ul {
   font-size: 14px;
   display: flex;
   gap: 20px;
+}
+
+.left-col ul li a:hover,
+.right-col ul li a:hover{
+  text-decoration: underline;
 }
 
 .location {
