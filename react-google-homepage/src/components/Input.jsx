@@ -23,17 +23,7 @@ export const Input = () => {
   return (
     <div className='input-wrapper'>
       <div className='input-container'>
-        <input className='input-field' onChange={updateInput} onKeyDown={enterKeyPressed} value ={input} />
-      </div>
-      <div>
-        <ul className="previousList">
-          {list.map((query, i) => (
-          <Search
-            query={query}
-            key={query + i}
-          />
-          ))}
-        </ul>
+        <input className='input-field' placeholder='search' onChange={updateInput} onKeyDown={enterKeyPressed} value ={input} />
       </div>
     </div>
   )
