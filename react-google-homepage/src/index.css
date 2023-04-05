@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.App {
+  background-color: #202124;
+}
+
+.Navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 14px;
+}
+
+.MenuIcon{
+  width: 24px;
+  height: 24px;
+  /* margin-left: 15px; */
+}
+
+
+.Avatar{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  padding: 5px;
+  background-color: #00404d;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
+}
+
+.search-container{
+  width: 41%;
+  padding: 7px 0px;
+  margin: 20px auto;
+  border-radius: 50px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  max-width: 582px;
+  height: 30px;
+}
+
+.googleIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.googleIcons img{
+  height: 20px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.lens{
+  padding-left: 0;
+}
+
+.Language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Language p{
+  font-size: 13px;
+  margin-right: 10px;
+  color: #4d5156;;
+}
+
+.Language a{
+  color: #8ab4f8;
+  text-decoration: none;
+  padding: 0px 3px;
+  font-size: 13px;
+  font-weight: 500;
+}
